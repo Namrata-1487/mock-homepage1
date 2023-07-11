@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Document</title>
+  <style>
+    body {
+      font-family: "Poppins";
+    }
+
+    li {
+      list-style: none;
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+      text-align: center;
+      color: black;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    #join {
+      border: #ffffff;
+      border-radius: 10px;
+      padding: 5px;
+    }
+
+    .collapse ul {
+      display: flex;
+    }
+
+    .nav-link {
+      font-size: xx-large;
+      padding-bottom: 2%;
+    }
+
+    #getstarted:active,
+    #getstarted:hover {
+      background-color: #2D9CDB;
+      border: #2D9CDB;
+      box-shadow: 0px 0px 15px #46b6f7;
+    }
+
+    .seemore a {
+      color: blue;
+      font-weight: 600;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .story h2,
+    .meet h2 {
+      padding-left: 0;
+    }
+
+    .story,
+    .heading p,
+    h2 {
+      padding-left: 15%
+    }
+
+    #blocks {
+      margin-bottom: 100px;
+      box-shadow: 0 0 5px gray;
+      padding: 20px 0;
+      border-radius: 20px;
+    }
+
+    .seemore {
+      width: 100%;
+      padding-bottom: 50px;
+      padding-top: 30px;
+    }
+
+    #card {
+      width: 100%;
+    }
+
+    .contact {
+      width: 75%;
+      padding: 20px 40px;
+    }
+
+    @media screen and (max-width:960px) {
+      .navbar-collapse {
+        background-color: #f7fdfa;
+        padding: 20%;
+      }
+    }
+
+    @media screen and (min-width:960px) {
+      .story {
+        padding: 0 20%;
+        width: 100%;
+      }
+
+      .story h2,
+      .story p {
+        width: 40%;
+        padding: 0;
+      }
+
+      .heading2 {
+        width: 30%;
+        padding-left: 6%;
+      }
+
+      .heading {
+        width: 50%;
+
+      }
+
+      .nav-link {
+        font-size: xx-large;
+      }
+
+      #blocks {
+        box-shadow: 0 0 5px gray;
+        width: 30%;
+        margin: auto;
+      }
+
+      #card {
+        width: 25%;
+      }
+
+      .contact {
+        width: 25%;
+      }
+
+    }
+  </style>
+</head>
+
+<body class="container-fluid m-auto p-0">
+  <header class="p-0 fixed-top">
+    <nav class="navbar px-3 bg-white navbar-expand-lg w-100 ">
+      <a href="#" class="navabar-brand fs-1 fw-bold">Edie</a></li>
+
+      <button class="navbar-toggle d-lg-none d-sm-block border border-none outline-none btn btn-light" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link text-dark  ">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark  ">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark  ">Our Works</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark  ">Clients</a></li>
+          <li class="nav-item"> <a href="#" class="nav-link text-dark  ">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <main class="mb-5 pt-5 pb-2">
+    <div class="mx-auto mt-5 p-0 heading">
+      <p class="text-primary fs-5 p-lg-0">Unhappy with your website</p>
+      <h2 class="fs-1 p-lg-0">We create beautiful <br> and fast web services</h2>
+    </div>
+
+    <div class="mx-5  py-lg-5 mb-4">
+      <img src="heroImage.jpg" class="w-100" alt="banner image ">
+    </div>
+
+    <div class="mx-auto mb-5 story">
+      <h2 class="fs-1">Story, emotion and purpose</h2>
+      <p class=" pe-lg-4">We help transform your ideas into real world applications that will outperform your
+        toughest
+        competition and help you achieve your strategic goals in short period of time.</p>
+
+      <p class=" pb-2">Want us to contact you?</p>
+
+      <div class="d-flex w-75 bg-light" id="join">
+        <input type="email" class="p-2 w-100 fs-6 bg-white border border-none outline-none" placeholder="Email">
+        <a href="#" class="w-25">
+          <button type="submit" class="btn w-100 fs-6 bg-primary h-100 text-light border border-none"> Join</button></a>
+      </div>
+
+    </div>
+  </main>
+  <div class="main2 ">
+    <h2 class="heading2  ">We offer high demand services</h2>
+  </div>
+  <div class="row mb-5 px-5 mx-5">
+    <div class="col-lg-4 col-sm-12  px-5" id="blocks">
+      <div
+        style="width:40px;height:40px;display: flex;background-color: #2D9CDB;align-items: center;justify-content: center; border-radius: 5px;">
+
+        <i class="fa-solid fa-pen fa-2xl " style="color: white;"></i>
+      </div>
+      <h4 class="my-3">UI/UX Design</h4>
+      <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet
+        id quis
+        turpis.
+      </p>
+      <a id="getstarted" class="btn btn-secondary active" data-toggle="buttons" href="#" role="button">Get Started</a>
+    </div>
+    <div class="col-lg-4 col-sm-12  px-5" id="blocks">
+      <div
+        style="width:40px;height:40px;display: flex;background-color: #27AE60;;align-items: center;justify-content: center; border-radius: 5px;">
+        <i class="fa-solid fa-code fa-xl" style="color: white;"></i>
+      </div>
+      <h4 class="my-3">Front End</h4>
+      <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet
+        id quis
+        turpis.
+      </p>
+      <a id="getstarted" class="btn btn-secondary" href="#" role="button">Get Started</a>
+    </div>
+    <div class="col-lg-4 col-sm-12  px-5" id="blocks">
+      <div
+        style="width:40px;height:40px;display: flex;background-color: #EB5757;;align-items: center;justify-content: center; border-radius: 5px;">
+        <!-- <?xml version="1.0" ?> -->
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="margin-left:8px; margin-right:8px;">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: white;
+              }
+
+              .cls-2 {
+                fill: #EB5757;
+              }
+            </style>
+          </defs>
+          <title />
+          <g id="Server">
+            <path class="cls-1" d="M27,2H5A3,3,0,0,0,2,5V9a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V5A3,3,0,0,0,27,2Z" />
+            <rect class="cls-1" height="8" rx="1" ry="1" width="28" x="2" y="12" />
+            <path class="cls-1" d="M29,22H3a1,1,0,0,0-1,1v4a3,3,0,0,0,3,3H27a3,3,0,0,0,3-3V23A1,1,0,0,0,29,22Z" />
+            <circle class="cls-2" cx="10" cy="6" r="1" />
+            <circle class="cls-2" cx="10" cy="16" r="1" />
+            <circle class="cls-2" cx="10" cy="26" r="1" />
+          </g>
+        </svg>
+      </div>
+      <h4 class="my-3">Back End</h4>
+      <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet
+        id quis
+        turpis.
+      </p>
+      <a id="getstarted" class="btn btn-secondary" href="#" role="button">Get Started</a>
+    </div>
+  </div>
+  <div class="pb-5"></div>
+  <h2 class="heading2">Good design means good buisness</h2>
+  <div class="row mx-5">
+    <div class="col-lg-6 col-sm-12 mt-5 pt-5">
+      <figure class="ps-lg-5">
+        <img src="smarthome.jpg" class="w-100" alt="smarthome">
+        <figcaption class="pt-3  fs-sm text-muted">Full stack application</figcaption>
+        <figcaption class="fs-4">Smart home dashboard</figcaption>
+      </figure>
+    </div>
+    <div class="col-lg-6 col-sm-12 m-0">
+      <figure class="pe-lg-5">
+        <img src="onboard.png" class="w-100" alt="smarthome">
+        <figcaption class="pt-3 fs-sm text-muted">UX/UI design</figcaption>
+        <figcaption class="fs-4">Onboard application</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="row mx-5">
+    <div class="col-lg-6 col-sm-12mt-5 pt-5">
+      <figure class="ps-lg-5">
+        <img src="booking.png" class="w-100" alt="smarthome">
+        <figcaption class="pt-3  fs-sm text-muted">Mobile application</figcaption>
+        <figcaption class="fs-4">Booking System</figcaption>
+      </figure>
+    </div>
+    <div class="col-lg-6 col-sm-12m-0">
+      <figure class="pe-lg-5">
+        <img src="juice-product.png" class="w-100" alt="smarthome">
+        <figcaption class="pt-3 fs-sm text-muted">Front End application</figcaption>
+        <figcaption class="fs-4">Juice production homepage</figcaption>
+      </figure>
+      <div class="seemore">
+        <a class="w-25 mt-5" href="#">See more <i class="fa-solid fa-arrow-right fa-sm"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row mx-5 px-lg-5 meet">
+    <div class="col-lg-6 col-sm-12 m-auto">
+      <p>Meet the team</p>
+      <h2 class="w-50">We are chilled and a laidback team</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+    <div class="col-lg-6 d-flex">
+      <div class="col-6 m-auto">
+        <img src="person3.png" class="w-100" alt="person-3">
+      </div>
+      <div class="col-6 ms-2" id="images">
+        <img src="person4.png" class="mb-2" alt="person-4">
+        <img src="person2.png" alt="person2">
+      </div>
+    </div>
+  </div>
+  <div class="mt-5 mx-lg-5 px-5 w-75 mb-3">
+    <h1>"Fast and outstanding results. Edie understands their customer's needs. They have a young and talented team."
+    </h1>
+  </div>
+
+  <div class="mx-lg-5 px-5 d-flex mb-5" id="card">
+    <div class="col-4 ">
+      <img src="person4.png" class="w-100" alt="">
+    </div>
+    <div class="col-6 mx-3 m-auto">
+      <h4>Carlos Tran </h4>
+      <p>The Decorate Gatsby</p>
+    </div>
+  </div>
+  <footer class="py-5 d-lg-flex bg-dark text-light px-sm-5">
+    <div class="col-4 px-lg-5 px-sm-0">
+      <ul class="p-0">
+        <li class="fs-3"><a href="#">Home</a></li>
+        <li class="fs-3"><a href="#">Services</a></li>
+        <li class="fs-3"><a href="#">Our Works</a></li>
+        <li class="fs-3"><a href="#">Clients</a></li>
+        <li class="fs-3"><a href="#">Contact</a></li>
+      </ul>
+
+    </div>
+    <div class="col-4">
+      <h1>Edie</h1>
+      <ul class="d-flex  p-0 mt-sm-3">
+        <li class="pe-lg-3 me-sm-4"><a href="#">
+            <i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i></a>
+        </li>
+        <li class="pe-lg-3 me-sm-4"><a href="#">
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+        </li>
+        <li class="me-sm-4"><a href="#">
+            <i class="fa-brands fa-square-twitter fa-2xl" style="color: #ffffff;"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-3 contact">
+      <p>Want us to contact you?</p>
+      <div class="d-flex w-lg-75 bg-light" id="join">
+        <input type="email" class="p-0 w-100 fs-6 bg-white border border-none outline-none" placeholder="Email">
+        <a href="#" class="w-25">
+          <button type="submit" class="btn w-100 fs-6 bg-primary h-100 text-light border border-none"> Join</button></a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
